@@ -667,7 +667,7 @@ function theme.highlights(colors, config)
       NvimTreeOpenedFile = { fg = colors.none },
       NvimTreeSpecialFile = { fg = colors.orange, style = "underline" },
       NvimTreeImageFile = { fg = colors.purple, style = "bold" },
-      NvimTreeNormal = { fg = colors.fg, bg = colors.active },
+      NvimTreeNormal = { fg = colors.fg, bg = colors.none },
       NvimTreeCursorLine = { bg = colors.float },
       NvimTreeVertSplit = { fg = colors.active, bg = colors.active },
       LspDiagnosticsError = { fg = colors.error },
