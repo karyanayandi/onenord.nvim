@@ -688,8 +688,8 @@ function theme.highlights(colors, config)
       NeoTreeGitConflict = { fg = colors.red },
       NeoTreeGitModified = { fg = colors.yellow },
       NeoTreeGitUntracked = { fg = colors.green },
-      NeoTreeNormal = { fg = colors.fg, bg = colors.active },
-      NeoTreeNormalNC = { fg = colors.fg, bg = colors.active },
+      NeoTreeNormal = { fg = colors.fg, bg = colors.none },
+      NeoTreeNormalNC = { fg = colors.fg, bg = colors.none },
       NeoTreeSymbolicLinkTarget = { fg = colors.cyan, style = "bold" },
 
       -- WhichKey
